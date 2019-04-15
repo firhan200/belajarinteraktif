@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <link rel="stylesheet" href="src/css/style.css">
+    </head>
+<body>
+
+    <div class="container">
+        <div class="title">
+            1. Pengukuran
+        </div>
+        <div class="content">
+            <div class="feedback-benar">Benar</div>
+            <div class="feedback-salah">Salah</div>
+            <p>Jumlahkan ketiga angka dengan cara menggeser ujung bagian balok biru ke kanan sampai dengan jumlah ketiganya berjumlah 2.</p>
+            <div class="pointer" id="pointer1" data-value="0"></div>
+            <div class="pointer" id="pointer2" data-value="0"></div>
+            <div class="pointer" id="pointer3" data-value="0"></div>
+
+            <button id="calculate-pointer">Hitung</button>
+            <div id="calculate-result">Total perhitungan: <span id="result">0</span></div>
+        </div>
+    </div>
+    
+
+    <!-- script section -->
+    <script src="https://cdn.jsdelivr.net/npm/interactjs@next/dist/interact.min.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.4.0.min.js"
+  integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+  crossorigin="anonymous"></script>
+    <script type="text/javascript" src="src/js/app.js"></script>
+</body>
+</html>
