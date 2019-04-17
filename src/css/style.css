@@ -3,6 +3,7 @@
     background-color:#fff;
     border:1px dotted #1c1c1c;
     padding:10px;
+    margin-bottom:10px;
 }
 
 .container .title{
@@ -55,4 +56,81 @@
     line-height:1em;
     margin-left: -1em;
     text-align: center;
+}
+
+.timbangan{
+    background-color:transparent;
+    width:450px;
+    height:100px;
+    -webkit-transition: 1s; /* Safari */
+    transition: 1s;
+}
+
+.penyangga{
+    background-color:red;
+    width:350px;
+    height:10px;
+    margin-top:60px;
+    margin-left:50px;
+    position: absolute;
+}
+
+.wadah{
+    background-color:#fff;
+    border:2.5px solid red;
+    width:50px;
+    height:50px;
+    position: absolute;
+    z-index: 0;
+}
+
+.wadah-aktif{
+    background-color: rgb(216, 89, 89);
+}
+
+.wadah-kiri{
+    margin-top:5px;
+    margin-left:50px;
+}
+
+.wadah-kanan{
+    margin-top:5px;
+    margin-left:345px;
+}
+
+.beban{
+    z-index: 1;
+    border-radius: 50%;
+    width:30px;
+    height:30px;
+    font-size:10pt;
+    color:#fff;
+    background-color: #000;
+    touch-action: none;
+}
+
+.beban:after{
+    content: attr(data-value);
+    position: absolute;
+    width:30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.skor-timbangan{
+    padding-bottom:50px;
+}
+
+.skor-kiri{
+    position:absolute;
+}
+
+.skor-kanan{
+    position:absolute;
+    margin-left:400px;
+}
+
+.reset-timbangan{
+    position: absolute;
+    margin-left:200px;
 }

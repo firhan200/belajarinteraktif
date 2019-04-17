@@ -23,6 +23,33 @@
         </div>
     </div>
     
+    <div class="container">
+        <div class="title">
+            2. Timbangan
+        </div>
+        <div class="content">
+            <div class="feedback-benar">Benar</div>
+            <div class="feedback-salah">Salah</div>
+            <p>Sejajarkan timbangan dengan menggunakan berat yang tersedia.</p>
+
+            <div class="skor-timbangan">
+                <div class="skor-kiri"><div>Kiri:</div><b id="total-skor-kiri">0</b></div>
+                <div class="skor-kanan"><div>Kanan:</div><b id="total-skor-kanan">0</b></div>
+                <a href="#!" class="reset-timbangan" id="reset-timbangan">Reset</a>
+            </div>
+
+            <div class="beban" data-value="5"></div>
+            <div class="beban" data-value="10"></div>
+            <div class="beban" data-value="15"></div>
+            <div class="beban" data-value="20"></div>
+
+            <div class="timbangan" id="timbangan">
+                <div class="wadah wadah-kiri" data-position="left"></div>
+                <div class="penyangga"></div>
+                <div class="wadah wadah-kanan" data-position="right"></div>
+            </div>
+        </div>
+    </div>
 
     <!-- script section -->
     <script src="https://cdn.jsdelivr.net/npm/interactjs@next/dist/interact.min.js"></script>
